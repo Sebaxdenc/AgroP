@@ -66,16 +66,49 @@ db.password=tu_contraseña
 # --- Configuración de la API de Hugging Face ---
 hf.api.url=https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2
 hf.api.token=Bearer tu_token_de_huggingface
+```
+## **Imágenes del proyecto**
 
+### **Pantallas principales**
 
-## **Capturas de pantalla**
+![Pantalla principal1](images/login.png)
+![Pantalla principal2](images/register.png)
+![Pantalla principal3](images/lotes.png)
+![Pantalla principal4](images/ingreso_datos.png)
 
-### **Pantalla principal**
-![Pantalla principal](images/pantalla-principal.png "Pantalla principal de AgroP")
 
 ### **Consejos personalizados**
-![Consejos personalizados](images/consejos-personalizados.png "Sección de consejos personalizados")
+
+![Consejos personalizados](images/consejos_ia.png)
 
 ### **Gráficos de análisis**
-![Gráficos de análisis](images/graficos-analisis.png "Gráficos de análisis de datos")
-```
+
+![Graficos](images/grafica.png)
+![Graficos](images/tiempo_real.png)
+
+
+### **Base de datos MySQL Workbench**
+
+![Base de datos](images/bd.png)
+
+## **Funcionalidades principales**
+
+### **Análisis del estado de la tierra**
+- Permite ingresar datos como pH, temperatura, humedad y nutrientes para evaluar el estado de la tierra.
+
+### **Generación de consejos personalizados**
+- Utiliza inteligencia artificial para proporcionar recomendaciones específicas basadas en los datos ingresados.
+
+### **Visualización de gráficos**
+- Muestra gráficos interactivos para analizar tendencias y patrones en los datos agrícolas.
+
+### **Conexión a bases de datos**
+- Permite almacenar y recuperar datos históricos para un análisis más detallado.
+
+### **Integración con sensores**
+- Recopila datos directamente desde sensores conectados a un Arduino Nano.
+
+---
+
+## **Contribuciones**
+Si deseas contribuir al proyecto, por favor crea un fork del repositorio, realiza tus cambios y envía un pull request. ¡Todas las contribuciones son bienvenidas!
